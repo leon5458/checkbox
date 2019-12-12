@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkbox"
+            android:text="同意本协议" />
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkbox"
+            android:text="同意本协议" />
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkbox"
+            android:text="同意本协议" />
+
+        <CheckBox
+            android:id="@+id/checkbox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkbox"
+            android:text="同意本协议" />
+
+        <CheckBox
+            android:id="@+id/checkbox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkbox"
+            android:text="同意本协议" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="我国公民享有的（ ）等权利，同时也是义务" />
+
+        <CheckBox
+            android:id="@+id/checkbox11"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/drawable_radio_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="选举权和被选举权" />
+
+        <CheckBox
+            android:id="@+id/checkbox22"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/drawable_radio_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="劳动权" />
+
+        <CheckBox
+            android:id="@+id/checkbox33"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/drawable_radio_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="受教育权" />
+
+        <CheckBox
+            android:id="@+id/checkbox44"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/drawable_radio_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="监督权" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/drawable_radio"
+                android:paddingLeft="10dp"
+                android:text="Java" />
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/drawable_radio"
+                android:paddingLeft="10dp"
+                android:text="Android" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/drawable_radio"
+                android:paddingLeft="10dp"
+                android:text="vue" />
+
+            <RadioButton
+                android:id="@+id/radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/drawable_radio"
+                android:paddingLeft="10dp"
+                android:text="Paython" />
+
+            <RadioButton
+                android:id="@+id/radio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/drawable_radio"
+                android:paddingLeft="10dp"
+                android:text="js" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="发射第一颗人造卫星的国家是" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/drawable_radio_bg"
+                android:button="@null"
+                android:gravity="center"
+                android:text="美国" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/drawable_radio_bg"
+                android:button="@null"
+                android:gravity="center"
+                android:text="前苏联" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/drawable_radio_bg"
+                android:button="@null"
+                android:gravity="center"
+                android:text="南斯拉夫" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/drawable_radio_bg"
+                android:button="@null"
+                android:gravity="center"
+                android:text="中国" />
+        </RadioGroup>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
